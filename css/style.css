@@ -2,3 +2,8 @@ body {
   background-color: #dadada;
   font-size: 10px;
 }
+@media screen and (min-width: 575px){
+  .preview {
+    float: left;
+    width: 50%;
+}
