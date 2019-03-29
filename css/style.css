@@ -2,21 +2,46 @@ body {
   background-color: #dadada;
   font-size: 20px;
 }
+h1 {
+  padding: 30px;
+}
 .title {
   text-align: center;
-  margin: 10%
+  margin: 10%;
 }
-img {
+.preview {
   width: 100%;
-  margin: 1% 0;
+  height: 400px;
+  margin: 5% 0;
 }
 @media screen and (min-width: 575px){
   .preview {
     float: left;
-    width: 50%;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    margin: 5%;
+  }
 }
 @media screen and (min-width: 1200px){
   .preview {
     float: left;
     width: 25%;
+  }
+}
+.baku {
+  background: url("/images/baku.jpg");
+  background-size: cover;
+}
+.london {
+  background: url("/images/london.png");
+  background-size: cover;
+}
+.madrid {
+  background: url("/images/madrid.jpg");
+  background-size: cover;
+}
+.rome {
+  background: url("/images/rome.jpg");
+  background-size: cover;
 }
